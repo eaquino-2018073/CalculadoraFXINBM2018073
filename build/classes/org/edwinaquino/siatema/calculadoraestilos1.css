@@ -1,0 +1,38 @@
+.button:hover{
+    -fx-background-color: linear-gradient(#1a97b6,#00b5d6);
+    -fx-border-color: aliceblue;
+      }
+
+.root {
+display: block;
+-fx-background-color: lightsteelblue;
+}
+
+.fontStyle{
+-fx-font-size: 25;
+-fx-font-family: "Times New Roman";
+}
+.label{
+-fx-text-fill: Black;
+}
+.hbox {
+-fx-padding: 15;
+-fx-spacing: 10;
+}
+.borders{
+-fx-border-color: yellow;
+-fx-border-style: solid;
+-fx-border-width: 4;
+-fx-border-insets: -5;
+}
+
+.vbox {
+    -fx-background-image: url('file:org/jorgeecheverria/imagenes/Calculadorafondo1.jpg');
+    -fx-background-size: 400, 100;
+    -fx-background-repeat: repeat;
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
